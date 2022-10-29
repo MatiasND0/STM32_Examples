@@ -1,0 +1,26 @@
+16:40:27 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:29:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   29 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:29:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+  10360	    120	   1648	  12128	   2f60	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+
+16:40:27 Build Finished. 0 errors, 2 warnings. (took 667ms)
+

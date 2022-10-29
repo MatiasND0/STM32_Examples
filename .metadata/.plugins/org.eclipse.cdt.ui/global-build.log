@@ -1,4 +1,385 @@
-15:56:41 **** Incremental Build of configuration Debug for project Timers ****
+16:14:44 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:38:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   38 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n", Date.Date, Date.Month, Date.Year+2000,
+      |    ^~~~~~~
+../Core/Src/main.c:38:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   7872	    120	   1616	   9608	   2588	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:15:52 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   5312	     20	   1596	   6928	   1b10	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:18:17 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:37:49: error: expected ';' before '}' token
+   37 |    HAL_RTC_GetTime(&hrtc, &Time, RTC_FORMAT_BCD)
+      |                                                 ^
+      |                                                 ;
+   38 |   }
+      |   ~                                              
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:18:24 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   7164	     20	   1596	   8780	   224c	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:19:17 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   7164	     20	   1596	   8780	   224c	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:20:08 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:37:26: warning: passing argument 2 of 'HAL_RTC_SetDate' from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |   HAL_RTC_SetDate(&hrtc, &Time, RTC_FORMAT_BCD);
+      |                          ^~~~~
+      |                          |
+      |                          RTC_TimeTypeDef *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:314,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:550:77: note: expected 'RTC_DateTypeDef *' but argument is of type 'RTC_TimeTypeDef *'
+  550 | HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format);
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   7536	     20	   1596	   9152	   23c0	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:22:14 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:27:4: error: 'sTime' undeclared (first use in this function); did you mean 'Time'?
+   27 |    sTime.Hours = 16;
+      |    ^~~~~
+      |    Time
+../Core/Src/main.c:27:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:31:5: error: 'DateToUpdate' undeclared (first use in this function)
+   31 |     DateToUpdate.WeekDay = RTC_WEEKDAY_SATURDAY;
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c:37:58: error: expected ';' before 'while'
+   37 |     HAL_RTC_SetDate(&hrtc, &DateToUpdate, RTC_FORMAT_BCD)
+      |                                                          ^
+      |                                                          ;
+   38 | 
+   39 |   while (1)
+      |   ~~~~~                                                   
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:22:23 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:27:4: error: 'sTime' undeclared (first use in this function); did you mean 'Time'?
+   27 |    sTime.Hours = 16;
+      |    ^~~~~
+      |    Time
+../Core/Src/main.c:27:4: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:31:5: error: 'DateToUpdate' undeclared (first use in this function)
+   31 |     DateToUpdate.WeekDay = RTC_WEEKDAY_SATURDAY;
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c:42:27: error: 'sDate' undeclared (first use in this function); did you mean 'Date'?
+   42 |    HAL_RTC_GetDate(&hrtc, sDate, RTC_FORMAT_BCD);
+      |                           ^~~~~
+      |                           Date
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:23:05 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:31:5: error: 'DateToUpdate' undeclared (first use in this function)
+   31 |     DateToUpdate.WeekDay = RTC_WEEKDAY_SATURDAY;
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c:31:5: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:41:28: error: 'Time' undeclared (first use in this function); did you mean 'sTime'?
+   41 |    HAL_RTC_GetTime(&hrtc, &Time, RTC_FORMAT_BCD);
+      |                            ^~~~
+      |                            sTime
+../Core/Src/main.c:42:28: error: 'Date' undeclared (first use in this function); did you mean 'sDate'?
+   42 |    HAL_RTC_GetDate(&hrtc, &Date, RTC_FORMAT_BCD);
+      |                            ^~~~
+      |                            sDate
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:23:16 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:41:28: error: 'Time' undeclared (first use in this function); did you mean 'sTime'?
+   41 |    HAL_RTC_GetTime(&hrtc, &Time, RTC_FORMAT_BCD);
+      |                            ^~~~
+      |                            sTime
+../Core/Src/main.c:41:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:42:28: error: 'Date' undeclared (first use in this function); did you mean 'sDate'?
+   42 |    HAL_RTC_GetDate(&hrtc, &Date, RTC_FORMAT_BCD);
+      |                            ^~~~
+      |                            sDate
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:23:26 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:14:8: warning: unused variable 'mensaje' [-Wunused-variable]
+   14 |   char mensaje[32] = {0};
+      |        ^~~~~~~
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   7716	     20	   1596	   9332	   2474	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:25:53 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   6632	     20	   1588	   8240	   2030	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:33:00 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:37:26: warning: passing argument 2 of 'HAL_RTC_SetTime' from incompatible pointer type [-Wincompatible-pointer-types]
+   37 |   HAL_RTC_SetTime(&hrtc, &sDate, RTC_FORMAT_BCD);
+      |                          ^~~~~~
+      |                          |
+      |                          RTC_DateTypeDef *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:314,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:548:77: note: expected 'RTC_TimeTypeDef *' but argument is of type 'RTC_DateTypeDef *'
+  548 | HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format);
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:43:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   43 |    sprintf("Fecha: %d/%d/%d \nHora: %d:%d:%d\n",Time.Hours, Time.Minutes, Time.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:43:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:43:49: error: 'Time' undeclared (first use in this function); did you mean 'sTime'?
+   43 |    sprintf("Fecha: %d/%d/%d \nHora: %d:%d:%d\n",Time.Hours, Time.Minutes, Time.Seconds);
+      |                                                 ^~~~
+      |                                                 sTime
+../Core/Src/main.c:43:49: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:33:21 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:38:26: warning: passing argument 2 of 'HAL_RTC_SetTime' from incompatible pointer type [-Wincompatible-pointer-types]
+   38 |   HAL_RTC_SetTime(&hrtc, &sDate, RTC_FORMAT_BCD);
+      |                          ^~~~~~
+      |                          |
+      |                          RTC_DateTypeDef *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:314,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:548:77: note: expected 'RTC_TimeTypeDef *' but argument is of type 'RTC_DateTypeDef *'
+  548 | HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format);
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:44:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   44 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",Time.Hours, Time.Minutes, Time.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:44:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:44:57: error: 'Time' undeclared (first use in this function); did you mean 'sTime'?
+   44 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",Time.Hours, Time.Minutes, Time.Seconds);
+      |                                                         ^~~~
+      |                                                         sTime
+../Core/Src/main.c:44:57: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:34:06 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:38:26: warning: passing argument 2 of 'HAL_RTC_SetTime' from incompatible pointer type [-Wincompatible-pointer-types]
+   38 |   HAL_RTC_SetTime(&hrtc, &sDate, RTC_FORMAT_BCD);
+      |                          ^~~~~~
+      |                          |
+      |                          RTC_DateTypeDef *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:314,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:30,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:548:77: note: expected 'RTC_TimeTypeDef *' but argument is of type 'RTC_DateTypeDef *'
+  548 | HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format);
+      |                                                            ~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:44:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   44 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:44:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+   9964	    120	   1648	  11732	   2dd4	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:34:24 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:44:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   44 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:44:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+  10328	    120	   1648	  12096	   2f40	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:35:31 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:44:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   44 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:44:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+  10328	    120	   1648	  12096	   2f40	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
+ 
+16:38:54 **** Incremental Build of configuration Debug for project RTC ****
 make -j12 all 
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
@@ -11,20 +392,79 @@ arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" 
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o"
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
 arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
 arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
 arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
-arm-none-eabi-gcc -o "Timers.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\Timers\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Timers.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Timers.elf
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:21:28: error: 'sTime' undeclared (first use in this function)
+   21 |    HAL_RTC_GetTime(&hrtc, &sTime, RTC_FORMAT_BCD);
+      |                            ^~~~~
+../Core/Src/main.c:21:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:22:28: error: 'sDate' undeclared (first use in this function)
+   22 |    HAL_RTC_GetDate(&hrtc, &sDate, RTC_FORMAT_BCD);
+      |                            ^~~~~
+../Core/Src/main.c:23:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   23 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:23:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:23:12: error: 'mensaje' undeclared (first use in this function)
+   23 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |            ^~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:39:07 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:29:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   29 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:29:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
  
-arm-none-eabi-size   Timers.elf 
-arm-none-eabi-objdump -h -S  Timers.elf  > "Timers.list"
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
    text	   data	    bss	    dec	    hex	filename
-   6804	     20	   1644	   8468	   2114	Timers.elf
+  10360	    120	   1648	  12128	   2f60	RTC.elf
 Finished building: default.size.stdout
  
-Finished building: Timers.list
+Finished building: RTC.list
+ 
+16:40:27 **** Incremental Build of configuration Debug for project RTC ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:29:4: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   29 |    sprintf(mensaje,"Fecha: %d/%d/%d \nHora: %d:%d:%d\n",sDate.Date, sDate.Month, sDate.Year+2000, sTime.Hours, sTime.Minutes, sTime.Seconds);
+      |    ^~~~~~~
+../Core/Src/main.c:29:4: warning: incompatible implicit declaration of built-in function 'sprintf'
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+arm-none-eabi-gcc -o "RTC.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\RTC\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="RTC.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: RTC.elf
+ 
+arm-none-eabi-size   RTC.elf 
+arm-none-eabi-objdump -h -S  RTC.elf  > "RTC.list"
+   text	   data	    bss	    dec	    hex	filename
+  10360	    120	   1648	  12128	   2f60	RTC.elf
+Finished building: default.size.stdout
+ 
+Finished building: RTC.list
  
