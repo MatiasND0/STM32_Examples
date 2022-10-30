@@ -1,4 +1,4 @@
-20:03:21 **** Incremental Build of configuration Debug for project ST7789 ****
+22:21:37 **** Incremental Build of configuration Debug for project ST7789 ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 arm-none-eabi-gcc -o "ST7789.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\matia\Desktop\Parcial TDII\ST7789\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="ST7789.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
@@ -7,11 +7,11 @@ Finished building target: ST7789.elf
 arm-none-eabi-size   ST7789.elf 
 arm-none-eabi-objdump -h -S  ST7789.elf  > "ST7789.list"
    text	   data	    bss	    dec	    hex	filename
-  11084	     28	   1660	  12772	   31e4	ST7789.elf
+  44016	     28	   1660	  45704	   b288	ST7789.elf
 Finished building: default.size.stdout
  
 Finished building: ST7789.list
  
 
-20:03:22 Build Finished. 0 errors, 0 warnings. (took 678ms)
+22:21:38 Build Finished. 0 errors, 0 warnings. (took 741ms)
 

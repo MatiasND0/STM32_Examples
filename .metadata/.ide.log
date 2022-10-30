@@ -908,3 +908,1167 @@
 2022-10-29 15:57:32,972 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
 2022-10-29 15:57:35,905 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
 2022-10-29 15:57:36,830 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:02:32,161 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x137,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:02:48,087 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 566491616 Bytes (843055104)
+2022-10-29 16:02:49,687 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 272181776 Bytes (843055104)
+2022-10-29 16:02:49,925 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RTC
+2022-10-29 16:02:49,925 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 16:02:49,925 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 16:02:49,925 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 16:02:49,926 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 16:02:49,927 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 16:02:50,184 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\license.tmp_save
+2022-10-29 16:02:50,297 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\license.tmp
+2022-10-29 16:02:50,308 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\gpio.tmp_save
+2022-10-29 16:02:50,395 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\gpio.tmp
+2022-10-29 16:02:50,428 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_it.c_save
+2022-10-29 16:02:50,502 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_it.c
+2022-10-29 16:02:50,508 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 16:02:50,574 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_it.h
+2022-10-29 16:02:50,589 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 16:02:50,692 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 16:02:50,698 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\system.tmp_save
+2022-10-29 16:02:50,764 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\system.tmp
+2022-10-29 16:02:50,780 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 16:02:50,875 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 16:02:50,908 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\main.h_save
+2022-10-29 16:02:50,984 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\main.h
+2022-10-29 16:02:50,994 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\main.c_save
+2022-10-29 16:02:51,100 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\main.c
+2022-10-29 16:02:51,695 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 242mS.
+2022-10-29 16:02:51,698 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 16:02:52,080 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 16:02:53,100 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1402mS.
+2022-10-29 16:02:53,100 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 16:02:53,103 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 16:36:53,857 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:37:02,077 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:37:09,030 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:37:11,802 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:37:13,898 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 451214232 Bytes (843055104)
+2022-10-29 16:37:17,076 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 495776664 Bytes (843055104)
+2022-10-29 16:37:17,266 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RTC
+2022-10-29 16:37:17,267 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 16:37:17,267 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 16:37:17,267 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 16:37:17,267 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 16:37:17,268 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 16:37:17,435 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\license.tmp_save
+2022-10-29 16:37:17,516 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\license.tmp
+2022-10-29 16:37:17,528 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\gpio.tmp_save
+2022-10-29 16:37:17,603 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\gpio.tmp
+2022-10-29 16:37:17,629 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_it.c_save
+2022-10-29 16:37:17,706 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_it.c
+2022-10-29 16:37:17,712 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 16:37:17,778 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_it.h
+2022-10-29 16:37:17,793 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 16:37:17,885 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 16:37:17,889 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\system.tmp_save
+2022-10-29 16:37:17,950 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\MXTmpFiles\system.tmp
+2022-10-29 16:37:17,965 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 16:37:18,050 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 16:37:18,075 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\main.h_save
+2022-10-29 16:37:18,150 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Inc\main.h
+2022-10-29 16:37:18,163 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\main.c_save
+2022-10-29 16:37:18,287 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\RTC\Core\Src\main.c
+2022-10-29 16:37:19,055 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 285mS.
+2022-10-29 16:37:19,059 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 16:37:19,279 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 16:37:20,277 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1218mS.
+2022-10-29 16:37:20,279 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-10-29 16:37:20,283 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 16:47:12,946 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 16:47:13,019 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-10-29 16:47:13,019 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2022-10-29 16:47:13,019 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2022-10-29 16:47:13,671 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2022-10-29 16:47:13,679 [INFO] DetailPanel:339 - Set advertising image to C:/Users/matia/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-10-29 16:47:13,890 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=IO
+2022-10-29 16:47:13,890 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=Freq.
+2022-10-29 16:47:13,890 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (C:\Users\matia\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-10-29 16:47:13,910 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-10-29 16:47:13,910 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-10-29 16:47:13,910 [INFO] ApiDb:665 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-10-29 16:47:13,910 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-10-29 16:47:14,508 [INFO] DbExamplesSqlite:374 - Ignored 31 examples not supported by CubeIDE
+2022-10-29 16:47:14,508 [INFO] DbExamplesSqlite:375 - Found 6197 examples active
+2022-10-29 16:47:14,508 [INFO] DbExamplesSqlite:376 - Found 89 examples obsolete
+2022-10-29 16:47:14,508 [INFO] DbExamplesSqlite:377 - Found 0 examples under development
+2022-10-29 16:47:14,508 [INFO] DbExamplesSqlite:378 - Found 76 examples not building
+2022-10-29 16:47:14,516 [INFO] DbExamples:124 - Found 6242 examples
+2022-10-29 16:47:14,524 [INFO] DbExamples:221 - Found 77 boards with related examples
+2022-10-29 16:47:14,524 [INFO] DbExamples:234 - Found 64 MCUs with related examples
+2022-10-29 16:47:14,538 [INFO] ApiDb:418 - Load user favorites file C:\Users\matia/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2022-10-29 16:47:14,538 [INFO] ApiDb:422 - User favorites Examples=[]
+2022-10-29 16:47:14,538 [INFO] DbExamples:249 - Set 0 / 0 favorites Examples
+2022-10-29 16:47:14,950 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2022-10-29 16:47:50,390 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 16:47:50,390 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 16:47:50,452 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-10-29 16:47:50,452 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-10-29 16:47:50,472 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2022-10-29 16:47:50,472 [INFO] ThirdParty:829 - entering critical section [close project]
+2022-10-29 16:47:50,472 [INFO] ThirdParty:839 - exiting critical section [close project]
+2022-10-29 16:47:50,472 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-10-29 16:47:50,472 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 410413848 Bytes (843055104)
+2022-10-29 16:47:50,472 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-10-29 16:47:50,472 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-10-29 16:47:50,472 [INFO] OpenFileManager:307 - Change cursor
+2022-10-29 16:47:50,482 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2022-10-29 16:47:50,487 [INFO] Mcu:1922 - Initializing MCU STM32F103C8Tx STM32F103C8Tx 
+2022-10-29 16:47:50,487 [INFO] Mcu:1935 - No CPN specified => set CPN to STM32F103C8T6
+2022-10-29 16:47:50,889 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2022-10-29 16:47:50,974 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-10-29 16:47:50,974 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2022-10-29 16:47:50,974 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2022-10-29 16:47:50,982 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 16:47:50,982 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 16:47:50,982 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 16:47:50,989 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-10-29 16:47:50,989 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-10-29 16:47:50,989 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-10-29 16:47:50,990 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-10-29 16:47:50,990 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-10-29 16:47:50,990 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-10-29 16:47:50,992 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 16:47:50,992 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 16:47:50,992 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 16:47:50,992 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,000 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 16:47:51,002 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-10-29 16:47:51,082 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 16:47:51,082 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 16:47:51,082 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 16:47:51,092 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-29 16:47:51,092 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-29 16:47:51,092 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 16:47:51,092 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 16:47:51,092 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 16:47:51,092 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2022-10-29 16:47:51,099 [INFO] ThirdPartyModel:289 - Start build external matchings
+2022-10-29 16:47:51,360 [INFO] ThirdPartyModel:302 - End build external matchings
+2022-10-29 16:47:51,593 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 407808048 Bytes (843055104)
+2022-10-29 16:47:51,642 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2022-10-29 16:47:51,642 [INFO] ThirdParty:791 - entering critical section [change project]
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :AL94 I-CUBE-USBD-COMPOSITE 1.0.3
+2022-10-29 16:47:51,642 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2022-10-29 16:47:51,649 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2022-10-29 16:47:51,650 [INFO] ThirdParty:797 - exiting critical section [change project]
+2022-10-29 16:47:51,749 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-10-29 16:47:51,749 [INFO] PinOutPanel:1468 - setPackage(STM32F103C8Tx,LQFP48)
+2022-10-29 16:47:51,885 [INFO] UtilMem:74 - Before build in PCC Used Memory: 486977584 Bytes (843055104)
+2022-10-29 16:47:52,022 [INFO] UtilMem:74 - After build in PCC Used Memory: 528920624 Bytes (843055104)
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,040 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,041 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,041 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,042 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 16:47:52,122 [INFO] OpenFileManager:327 - Restore cursor
+2022-10-29 16:47:52,289 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 583968816 Bytes (843055104)
+2022-10-29 16:47:52,342 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 599175216 Bytes (843055104)
+2022-10-29 16:47:52,520 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 16:47:52,520 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 16:47:52,520 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 16:47:52,759 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\license.tmp_save
+2022-10-29 16:47:52,900 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\license.tmp
+2022-10-29 16:47:52,912 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_it.c_save
+2022-10-29 16:47:53,009 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_it.c
+2022-10-29 16:47:53,012 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 16:47:53,082 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_it.h
+2022-10-29 16:47:53,112 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 16:47:53,209 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 16:47:53,212 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\system.tmp_save
+2022-10-29 16:47:53,280 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\system.tmp
+2022-10-29 16:47:53,290 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 16:47:53,382 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 16:47:53,402 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\main.h_save
+2022-10-29 16:47:53,492 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\main.h
+2022-10-29 16:47:53,495 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\main.c_save
+2022-10-29 16:47:53,609 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\main.c
+2022-10-29 16:47:54,250 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 250mS.
+2022-10-29 16:47:54,262 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 16:47:54,642 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 16:47:54,642 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2022-10-29 16:47:54,650 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2022-10-29 16:47:54,653 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2022-10-29 16:47:56,362 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 2100mS.
+2022-10-29 16:47:56,362 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 16:47:56,362 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 16:47:57,272 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-10-29 16:47:57,272 [INFO] ApiDb:443 - Save user favorites file C:\Users\matia/.stm32cubeide/favorites.mcus.txt: 4 item(s)
+2022-10-29 16:47:57,279 [INFO] ApiDb:447 - User favorites MCUs=[STM32F103C8T6, STM32F103C8T6TR, STM32F103C8T7, STM32F103C8T7TR]
+2022-10-29 16:48:00,947 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,961 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,962 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,962 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,962 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,962 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,963 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,963 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,963 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,963 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,963 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:00,967 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,003 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:01,063 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:01,110 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,179 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,180 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,180 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,180 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,184 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,193 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,193 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,194 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,195 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:01,199 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:05,366 [INFO] Gpio:272 - dependency for GPIO [ADC1]
+2022-10-29 16:48:06,587 [INFO] Gpio:272 - dependency for GPIO [ADC1]
+2022-10-29 16:48:07,384 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:08,975 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:10,199 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:12,835 [INFO] DmaTabbedPanel:202 - Cannot restore the selected Tab for DMA
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,989 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,990 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,990 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:35,993 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,002 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,002 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,002 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,003 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:36,007 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,690 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,690 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,690 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,690 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,690 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,690 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,691 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,691 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,691 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,691 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:51,695 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,096 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x233,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 16:48:53,443 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,443 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,443 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,443 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,443 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,444 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,444 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,444 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,444 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,444 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:53,448 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,155 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,155 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,155 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,155 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,155 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,155 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,156 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,156 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,156 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,156 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:48:57,159 [INFO] ADCParametersView:113 -                Rank 1 : false
+2022-10-29 16:49:00,993 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 314853120 Bytes (762314752)
+2022-10-29 16:49:02,840 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 382491048 Bytes (762314752)
+2022-10-29 16:49:03,042 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 16:49:03,042 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 16:49:03,042 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 16:49:03,042 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: ADC
+2022-10-29 16:49:03,042 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 16:49:03,043 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 16:49:03,302 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\license.tmp_save
+2022-10-29 16:49:03,419 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\license.tmp
+2022-10-29 16:49:03,441 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\gpio.tmp_save
+2022-10-29 16:49:03,523 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\gpio.tmp
+2022-10-29 16:49:03,564 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_it.c_save
+2022-10-29 16:49:03,640 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_it.c
+2022-10-29 16:49:03,647 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 16:49:03,719 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_it.h
+2022-10-29 16:49:03,737 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 16:49:03,843 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 16:49:03,848 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\system.tmp_save
+2022-10-29 16:49:03,910 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\MXTmpFiles\system.tmp
+2022-10-29 16:49:03,924 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 16:49:04,017 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 16:49:04,046 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\main.h_save
+2022-10-29 16:49:04,128 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Inc\main.h
+2022-10-29 16:49:04,141 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\main.c_save
+2022-10-29 16:49:04,248 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ADC\Core\Src\main.c
+2022-10-29 16:49:04,965 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 245mS.
+2022-10-29 16:49:04,968 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 16:49:05,188 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 16:49:06,333 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1365mS.
+2022-10-29 16:49:06,334 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 16:49:06,338 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 17:10:45,689 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 17:10:45,769 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-10-29 17:10:45,770 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2022-10-29 17:10:45,770 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2022-10-29 17:10:46,334 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2022-10-29 17:10:46,335 [INFO] DetailPanel:339 - Set advertising image to C:/Users/matia/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-10-29 17:10:46,562 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=IO
+2022-10-29 17:10:46,563 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=Freq.
+2022-10-29 17:10:46,564 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (C:\Users\matia\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-10-29 17:10:46,600 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-10-29 17:10:46,600 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-10-29 17:10:46,600 [INFO] ApiDb:665 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-10-29 17:10:46,600 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-10-29 17:10:47,137 [INFO] DbExamplesSqlite:374 - Ignored 31 examples not supported by CubeIDE
+2022-10-29 17:10:47,137 [INFO] DbExamplesSqlite:375 - Found 6197 examples active
+2022-10-29 17:10:47,137 [INFO] DbExamplesSqlite:376 - Found 89 examples obsolete
+2022-10-29 17:10:47,137 [INFO] DbExamplesSqlite:377 - Found 0 examples under development
+2022-10-29 17:10:47,137 [INFO] DbExamplesSqlite:378 - Found 76 examples not building
+2022-10-29 17:10:47,139 [INFO] DbExamples:124 - Found 6242 examples
+2022-10-29 17:10:47,148 [INFO] DbExamples:221 - Found 77 boards with related examples
+2022-10-29 17:10:47,148 [INFO] DbExamples:234 - Found 64 MCUs with related examples
+2022-10-29 17:10:47,162 [INFO] ApiDb:418 - Load user favorites file C:\Users\matia/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2022-10-29 17:10:47,162 [INFO] ApiDb:422 - User favorites Examples=[]
+2022-10-29 17:10:47,162 [INFO] DbExamples:249 - Set 0 / 0 favorites Examples
+2022-10-29 17:10:47,578 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2022-10-29 17:11:07,190 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 17:11:07,191 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 17:11:07,247 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-10-29 17:11:07,247 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-10-29 17:11:07,265 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2022-10-29 17:11:07,265 [INFO] ThirdParty:829 - entering critical section [close project]
+2022-10-29 17:11:07,265 [INFO] ThirdParty:839 - exiting critical section [close project]
+2022-10-29 17:11:07,266 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-10-29 17:11:07,268 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 408166616 Bytes (762314752)
+2022-10-29 17:11:07,269 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-10-29 17:11:07,269 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-10-29 17:11:07,269 [INFO] OpenFileManager:307 - Change cursor
+2022-10-29 17:11:07,277 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2022-10-29 17:11:07,279 [INFO] Mcu:1922 - Initializing MCU STM32F103C8Tx STM32F103C8Tx 
+2022-10-29 17:11:07,279 [INFO] Mcu:1935 - No CPN specified => set CPN to STM32F103C8T6
+2022-10-29 17:11:07,693 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2022-10-29 17:11:07,776 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-10-29 17:11:07,776 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2022-10-29 17:11:07,777 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2022-10-29 17:11:07,783 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 17:11:07,783 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 17:11:07,783 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 17:11:07,787 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-10-29 17:11:07,787 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-10-29 17:11:07,787 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-10-29 17:11:07,787 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-10-29 17:11:07,787 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-10-29 17:11:07,788 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-10-29 17:11:07,790 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 17:11:07,790 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 17:11:07,790 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 17:11:07,792 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2022-10-29 17:11:07,795 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,795 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,795 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,796 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,797 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 17:11:07,798 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-10-29 17:11:07,878 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 17:11:07,879 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 17:11:07,879 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 17:11:07,883 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-29 17:11:07,883 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-29 17:11:07,883 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 17:11:07,883 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 17:11:07,883 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 17:11:07,884 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2022-10-29 17:11:07,889 [INFO] ThirdPartyModel:289 - Start build external matchings
+2022-10-29 17:11:08,194 [INFO] ThirdPartyModel:302 - End build external matchings
+2022-10-29 17:11:08,385 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 533044664 Bytes (762314752)
+2022-10-29 17:11:08,408 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2022-10-29 17:11:08,408 [INFO] ThirdParty:791 - entering critical section [change project]
+2022-10-29 17:11:08,408 [INFO] ThirdParty:981 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :AL94 I-CUBE-USBD-COMPOSITE 1.0.3
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-10-29 17:11:08,409 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2022-10-29 17:11:08,410 [INFO] ThirdParty:797 - exiting critical section [change project]
+2022-10-29 17:11:08,474 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-10-29 17:11:08,475 [INFO] PinOutPanel:1468 - setPackage(STM32F103C8Tx,LQFP48)
+2022-10-29 17:11:08,596 [INFO] UtilMem:74 - Before build in PCC Used Memory: 612293688 Bytes (762314752)
+2022-10-29 17:11:08,753 [INFO] UtilMem:74 - After build in PCC Used Memory: 299705952 Bytes (762314752)
+2022-10-29 17:11:08,764 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,764 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,764 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,765 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,766 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,766 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,766 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,766 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,766 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,767 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,767 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,767 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,767 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,767 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,767 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,768 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,768 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 17:11:08,852 [INFO] OpenFileManager:327 - Restore cursor
+2022-10-29 17:11:09,014 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 354754144 Bytes (762314752)
+2022-10-29 17:11:09,072 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 369434208 Bytes (762314752)
+2022-10-29 17:11:09,286 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 17:11:09,286 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 17:11:09,287 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 17:11:09,460 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\license.tmp_save
+2022-10-29 17:11:09,548 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\license.tmp
+2022-10-29 17:11:09,556 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_it.c_save
+2022-10-29 17:11:09,642 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_it.c
+2022-10-29 17:11:09,646 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 17:11:09,714 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_it.h
+2022-10-29 17:11:09,732 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 17:11:09,821 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 17:11:09,824 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\system.tmp_save
+2022-10-29 17:11:09,887 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\system.tmp
+2022-10-29 17:11:09,895 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 17:11:09,985 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 17:11:10,005 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\main.h_save
+2022-10-29 17:11:10,083 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\main.h
+2022-10-29 17:11:10,087 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\main.c_save
+2022-10-29 17:11:10,172 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\main.c
+2022-10-29 17:11:10,909 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 259mS.
+2022-10-29 17:11:10,913 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 17:11:11,149 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 17:11:11,151 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2022-10-29 17:11:11,154 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2022-10-29 17:11:11,157 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2022-10-29 17:11:12,797 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1884mS.
+2022-10-29 17:11:12,798 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 17:11:12,800 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 17:11:13,737 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-10-29 17:11:13,738 [INFO] ApiDb:443 - Save user favorites file C:\Users\matia/.stm32cubeide/favorites.mcus.txt: 4 item(s)
+2022-10-29 17:11:13,738 [INFO] ApiDb:447 - User favorites MCUs=[STM32F103C8T6, STM32F103C8T6TR, STM32F103C8T7, STM32F103C8T7TR]
+2022-10-29 17:11:29,219 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 17:11:30,397 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 17:11:31,232 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 17:11:33,208 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS]
+2022-10-29 17:11:41,322 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS]
+2022-10-29 17:11:50,206 [INFO] Gpio:272 - dependency for GPIO [RCC, SYS]
+2022-10-29 17:11:57,649 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x104,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 17:11:58,568 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 17:12:02,506 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 247099440 Bytes (762314752)
+2022-10-29 17:12:04,745 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 339575728 Bytes (762314752)
+2022-10-29 17:12:04,945 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 17:12:04,946 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-10-29 17:12:04,946 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 17:12:04,946 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 17:12:04,946 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 17:12:04,947 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 17:12:05,203 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\license.tmp_save
+2022-10-29 17:12:05,293 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\license.tmp
+2022-10-29 17:12:05,347 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\gpio.tmp_save
+2022-10-29 17:12:05,433 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\gpio.tmp
+2022-10-29 17:12:05,478 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_it.c_save
+2022-10-29 17:12:05,589 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_it.c
+2022-10-29 17:12:05,596 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 17:12:05,670 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_it.h
+2022-10-29 17:12:05,688 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 17:12:05,794 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 17:12:05,800 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\system.tmp_save
+2022-10-29 17:12:05,862 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\system.tmp
+2022-10-29 17:12:05,875 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 17:12:05,961 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 17:12:05,992 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\main.h_save
+2022-10-29 17:12:06,072 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\main.h
+2022-10-29 17:12:06,083 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\main.c_save
+2022-10-29 17:12:06,190 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\main.c
+2022-10-29 17:12:06,911 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 242mS.
+2022-10-29 17:12:06,915 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 17:12:07,134 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 17:12:08,225 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1310mS.
+2022-10-29 17:12:08,226 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-10-29 17:12:08,228 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 17:29:02,976 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 17:29:04,715 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 600846864 Bytes (762314752)
+2022-10-29 17:29:05,784 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 621882496 Bytes (762314752)
+2022-10-29 17:29:06,945 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 295272640 Bytes (762314752)
+2022-10-29 17:29:07,143 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 17:29:07,144 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: USART
+2022-10-29 17:29:07,144 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 17:29:07,144 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 17:29:07,144 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 17:29:07,145 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 17:29:07,355 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\license.tmp_save
+2022-10-29 17:29:07,438 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\license.tmp
+2022-10-29 17:29:07,451 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\gpio.tmp_save
+2022-10-29 17:29:07,528 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\gpio.tmp
+2022-10-29 17:29:07,561 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_it.c_save
+2022-10-29 17:29:07,662 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_it.c
+2022-10-29 17:29:07,670 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 17:29:07,747 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_it.h
+2022-10-29 17:29:07,765 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 17:29:07,868 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 17:29:07,874 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\system.tmp_save
+2022-10-29 17:29:07,936 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\MXTmpFiles\system.tmp
+2022-10-29 17:29:07,950 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 17:29:08,035 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 17:29:08,061 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\main.h_save
+2022-10-29 17:29:08,148 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Inc\main.h
+2022-10-29 17:29:08,160 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\main.c_save
+2022-10-29 17:29:08,267 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\UART\Core\Src\main.c
+2022-10-29 17:29:09,013 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 244mS.
+2022-10-29 17:29:09,016 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 17:29:09,234 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 17:29:10,338 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1322mS.
+2022-10-29 17:29:10,339 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 17:29:10,343 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:01:03,262 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 19:01:03,343 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-10-29 19:01:03,344 [INFO] MultiScanPanel:195 - Auto-refresh data requested => check proxy status ongoing
+2022-10-29 19:01:03,344 [INFO] FinderPluginLoader:92 - Searching for filters in installed packs
+2022-10-29 19:01:04,003 [INFO] LoadUrlFilesThread:177 - End of LoadServerUrlFiles without Thread
+2022-10-29 19:01:04,003 [INFO] DetailPanel:339 - Set advertising image to C:/Users/matia/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-10-29 19:01:04,243 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=IO
+2022-10-29 19:01:04,243 [INFO] ToolPreferences:109 - Table McuList, key=mcufinder_cubeide.mculist: column name not found=Freq.
+2022-10-29 19:01:04,244 [INFO] ApiDb:576 - Connected to CubeFinder SQLite database (C:\Users\matia\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-10-29 19:01:04,266 [INFO] ApiDb:663 - CubeFinder database Data Model version=2.1
+2022-10-29 19:01:04,266 [INFO] ApiDb:664 - CubeFinder database Configuration version=3.0.32
+2022-10-29 19:01:04,266 [INFO] ApiDb:665 - CubeFinder database generation date=2022-08-05 (1659688109)
+2022-10-29 19:01:04,266 [INFO] ApiDb:666 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.1, STM32Cube_FW_WB_V1.14.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.1.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.3, X-CUBE-BLE2_V3.3.0, X-CUBE-EEPRMA1_V3.1.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.3.0, X-CUBE-NFC4_V2.0.4, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2022-10-29 19:01:04,849 [INFO] DbExamplesSqlite:374 - Ignored 31 examples not supported by CubeIDE
+2022-10-29 19:01:04,850 [INFO] DbExamplesSqlite:375 - Found 6197 examples active
+2022-10-29 19:01:04,850 [INFO] DbExamplesSqlite:376 - Found 89 examples obsolete
+2022-10-29 19:01:04,850 [INFO] DbExamplesSqlite:377 - Found 0 examples under development
+2022-10-29 19:01:04,850 [INFO] DbExamplesSqlite:378 - Found 76 examples not building
+2022-10-29 19:01:04,851 [INFO] DbExamples:124 - Found 6242 examples
+2022-10-29 19:01:04,890 [INFO] DbExamples:221 - Found 77 boards with related examples
+2022-10-29 19:01:04,891 [INFO] DbExamples:234 - Found 64 MCUs with related examples
+2022-10-29 19:01:04,903 [INFO] ApiDb:418 - Load user favorites file C:\Users\matia/.stm32cubeide/favorites.examples.txt: 0 item(s)
+2022-10-29 19:01:04,903 [INFO] ApiDb:422 - User favorites Examples=[]
+2022-10-29 19:01:04,903 [INFO] DbExamples:249 - Set 0 / 0 favorites Examples
+2022-10-29 19:01:05,339 [INFO] MultiScanPanel:778 - Auto Refresh Data is not needed
+2022-10-29 19:01:22,164 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 19:01:22,164 [INFO] MainUpdater:2768 - connection check result : 10
+2022-10-29 19:01:22,252 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-10-29 19:01:22,252 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-10-29 19:01:22,269 [WARN] ThirdParty:827 - waiting for thirdparty lock release [close project]
+2022-10-29 19:01:22,269 [INFO] ThirdParty:829 - entering critical section [close project]
+2022-10-29 19:01:22,269 [INFO] ThirdParty:839 - exiting critical section [close project]
+2022-10-29 19:01:22,270 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-10-29 19:01:22,272 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 442071920 Bytes (762314752)
+2022-10-29 19:01:22,273 [INFO] MicroXplorer:451 - Change Database Path : 
+2022-10-29 19:01:22,273 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.60
+2022-10-29 19:01:22,273 [INFO] OpenFileManager:307 - Change cursor
+2022-10-29 19:01:22,281 [INFO] RulesReader:61 - Compatibility file has been processed (282 Rules)
+2022-10-29 19:01:22,284 [INFO] Mcu:1922 - Initializing MCU STM32F103C8Tx STM32F103C8Tx 
+2022-10-29 19:01:22,284 [INFO] Mcu:1935 - No CPN specified => set CPN to STM32F103C8T6
+2022-10-29 19:01:22,671 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2022-10-29 19:01:22,751 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-10-29 19:01:22,751 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2022-10-29 19:01:22,751 [INFO] ImportTextPane:193 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2022-10-29 19:01:22,758 [WARN] ApiManager:308 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 19:01:22,758 [WARN] ApiManager:308 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 19:01:22,758 [WARN] ApiManager:308 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2022-10-29 19:01:22,761 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-10-29 19:01:22,762 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-10-29 19:01:22,762 [INFO] RtosManager:488 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-10-29 19:01:22,762 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-10-29 19:01:22,762 [INFO] RtosManager:488 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-10-29 19:01:22,762 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-10-29 19:01:22,765 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 19:01:22,765 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 19:01:22,765 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-10-29 19:01:22,767 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,770 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,771 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,772 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,772 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,772 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2022-10-29 19:01:22,773 [WARN] ApiManager:308 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-10-29 19:01:22,846 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 19:01:22,846 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 19:01:22,846 [WARN] ApiManager:308 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.3.0: no header file found
+2022-10-29 19:01:22,849 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-29 19:01:22,849 [WARN] ApiManager:308 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-10-29 19:01:22,850 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 19:01:22,850 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 19:01:22,850 [WARN] ApiManager:308 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2022-10-29 19:01:22,851 [WARN] ApiManager:308 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2022-10-29 19:01:22,854 [INFO] ThirdPartyModel:289 - Start build external matchings
+2022-10-29 19:01:23,204 [INFO] ThirdPartyModel:302 - End build external matchings
+2022-10-29 19:01:23,405 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 317956520 Bytes (762314752)
+2022-10-29 19:01:23,442 [WARN] ThirdParty:789 - waiting for thirdparty lock release [change project]
+2022-10-29 19:01:23,443 [INFO] ThirdParty:791 - entering critical section [change project]
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.0.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 1.2.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.3.0
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-10-29 19:01:23,443 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :AL94 I-CUBE-USBD-COMPOSITE 1.0.3
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.1.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2022-10-29 19:01:23,444 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.20.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.3.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.2.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2022-10-29 19:01:23,445 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2022-10-29 19:01:23,446 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.2.0
+2022-10-29 19:01:23,446 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2022-10-29 19:01:23,446 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-10-29 19:01:23,446 [INFO] ThirdParty:981 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.0.0
+2022-10-29 19:01:23,446 [INFO] ThirdParty:797 - exiting critical section [change project]
+2022-10-29 19:01:23,551 [INFO] PinOutPanel:1468 - setPackage(No Configuration,No Configuration)
+2022-10-29 19:01:23,552 [INFO] PinOutPanel:1468 - setPackage(STM32F103C8Tx,LQFP48)
+2022-10-29 19:01:23,720 [INFO] UtilMem:74 - Before build in PCC Used Memory: 297974904 Bytes (762314752)
+2022-10-29 19:01:23,899 [INFO] UtilMem:74 - After build in PCC Used Memory: 339391608 Bytes (762314752)
+2022-10-29 19:01:23,910 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,910 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,910 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,911 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,912 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,913 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,913 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,913 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,913 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,913 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,914 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,914 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,914 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,915 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2022-10-29 19:01:23,988 [INFO] OpenFileManager:327 - Restore cursor
+2022-10-29 19:01:24,170 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 394966136 Bytes (762314752)
+2022-10-29 19:01:24,224 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 409646200 Bytes (762314752)
+2022-10-29 19:01:24,382 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:01:24,383 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:01:24,384 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:01:24,519 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:01:24,602 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:01:24,611 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:01:24,698 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:01:24,702 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:01:24,768 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:01:24,786 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:01:24,880 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:01:24,883 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:01:24,953 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:01:24,961 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:01:25,110 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:01:25,131 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:01:25,214 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:01:25,218 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:01:25,312 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:01:26,016 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 220mS.
+2022-10-29 19:01:26,022 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:01:26,382 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:01:26,384 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2022-10-29 19:01:26,388 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2022-10-29 19:01:26,392 [INFO] ApiDbMcu:505 - Load IP Config File for USB_DEVICE
+2022-10-29 19:01:27,968 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1946mS.
+2022-10-29 19:01:27,968 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:01:27,971 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:01:28,924 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
+2022-10-29 19:01:28,925 [INFO] ApiDb:443 - Save user favorites file C:\Users\matia/.stm32cubeide/favorites.mcus.txt: 4 item(s)
+2022-10-29 19:01:28,925 [INFO] ApiDb:447 - User favorites MCUs=[STM32F103C8T6, STM32F103C8T6TR, STM32F103C8T7, STM32F103C8T7TR]
+2022-10-29 19:01:44,126 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:01:45,429 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:01:46,269 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:02:54,844 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:02:56,888 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:07:45,324 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 459221104 Bytes (793772032)
+2022-10-29 19:07:47,181 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 563030112 Bytes (793772032)
+2022-10-29 19:07:47,398 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2022-10-29 19:07:47,398 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:07:47,398 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 19:07:47,399 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 19:07:47,399 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:07:47,400 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:07:47,656 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:07:47,755 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:07:47,809 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp_save
+2022-10-29 19:07:47,904 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp
+2022-10-29 19:07:47,947 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:07:48,029 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:07:48,035 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:07:48,103 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:07:48,120 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:07:48,236 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:07:48,242 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:07:48,321 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:07:48,338 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:07:48,454 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:07:48,491 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:07:48,586 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:07:48,598 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:07:48,708 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:07:49,441 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 245mS.
+2022-10-29 19:07:49,444 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:07:49,666 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:07:50,840 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1396mS.
+2022-10-29 19:07:50,841 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-10-29 19:07:50,843 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:20:27,336 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 381939312 Bytes (793772032)
+2022-10-29 19:20:28,904 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 439252816 Bytes (793772032)
+2022-10-29 19:20:29,070 [INFO] ProjectBuilder:2253 - IP not ready for code generation: SPI1
+2022-10-29 19:20:43,067 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:20:43,120 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-10-29 19:20:48,528 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 417536400 Bytes (880803840)
+2022-10-29 19:20:50,052 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 461576592 Bytes (880803840)
+2022-10-29 19:20:50,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2022-10-29 19:20:50,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:20:50,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 19:20:50,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 19:20:50,257 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:20:50,259 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:20:50,468 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:20:50,556 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:20:50,573 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp_save
+2022-10-29 19:20:50,653 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp
+2022-10-29 19:20:50,691 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:20:50,767 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:20:50,774 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:20:50,842 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:20:50,859 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:20:50,950 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:20:50,955 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:20:51,026 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:20:51,041 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:20:51,127 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:20:51,154 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:20:51,250 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:20:51,265 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:20:51,380 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:20:52,218 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 292mS.
+2022-10-29 19:20:52,221 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:20:52,627 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:20:53,797 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1576mS.
+2022-10-29 19:20:53,798 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:20:53,801 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:28:13,879 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 379086448 Bytes (880803840)
+2022-10-29 19:28:14,090 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2022-10-29 19:28:14,091 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:28:14,091 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 19:28:14,091 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 19:28:14,091 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:28:14,092 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:28:14,222 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:28:14,307 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:28:14,322 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp_save
+2022-10-29 19:28:14,401 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp
+2022-10-29 19:28:14,440 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:28:14,516 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:28:14,523 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:28:14,594 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:28:14,611 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:28:14,700 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:28:14,705 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:28:14,771 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:28:14,785 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:28:14,873 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:28:14,899 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:28:14,980 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:28:14,993 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:28:15,105 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:28:15,952 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 272mS.
+2022-10-29 19:28:15,956 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:28:16,188 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:28:17,393 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1437mS.
+2022-10-29 19:28:17,394 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:28:17,399 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-10-29 19:34:17,474 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 728232016 Bytes (880803840)
+2022-10-29 19:34:23,891 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 315940512 Bytes (880803840)
+2022-10-29 19:34:24,090 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2022-10-29 19:34:24,090 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:34:24,090 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 19:34:24,091 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 19:34:24,091 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:34:24,092 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:34:24,292 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:34:24,373 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:34:24,388 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp_save
+2022-10-29 19:34:24,473 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp
+2022-10-29 19:34:24,509 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:34:24,596 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:34:24,603 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:34:24,670 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:34:24,687 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:34:24,780 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:34:24,786 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:34:24,853 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:34:24,869 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:34:24,957 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:34:24,983 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:34:25,090 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:34:25,104 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:34:25,215 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:34:26,107 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 344mS.
+2022-10-29 19:34:26,110 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:34:26,335 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:34:27,369 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1259mS.
+2022-10-29 19:34:27,369 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:34:27,372 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:44:25,487 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 457224440 Bytes (880803840)
+2022-10-29 19:44:26,505 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 311630896 Bytes (880803840)
+2022-10-29 19:44:28,534 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 422033592 Bytes (880803840)
+2022-10-29 19:44:28,719 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2022-10-29 19:44:28,719 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:44:28,719 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 19:44:28,719 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 19:44:28,719 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:44:28,720 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:44:28,848 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:44:28,930 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:44:28,946 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp_save
+2022-10-29 19:44:29,034 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp
+2022-10-29 19:44:29,072 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:44:29,165 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:44:29,172 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:44:29,247 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:44:29,263 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:44:29,355 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:44:29,360 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:44:29,423 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:44:29,439 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:44:29,526 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:44:29,553 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:44:29,648 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:44:29,661 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:44:29,796 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:44:30,650 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 270mS.
+2022-10-29 19:44:30,654 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:44:30,893 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:44:32,078 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1424mS.
+2022-10-29 19:44:32,079 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-10-29 19:44:32,082 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 19:51:32,815 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 304886336 Bytes (880803840)
+2022-10-29 19:51:34,370 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 306306504 Bytes (880803840)
+2022-10-29 19:51:35,419 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 376375088 Bytes (880803840)
+2022-10-29 19:51:35,642 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SPI
+2022-10-29 19:51:35,642 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2022-10-29 19:51:35,642 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: SYS
+2022-10-29 19:51:35,642 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2022-10-29 19:51:35,642 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2022-10-29 19:51:35,643 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2022-10-29 19:51:35,831 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp_save
+2022-10-29 19:51:35,922 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\license.tmp
+2022-10-29 19:51:35,937 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp_save
+2022-10-29 19:51:36,044 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\gpio.tmp
+2022-10-29 19:51:36,095 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c_save
+2022-10-29 19:51:36,192 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_it.c
+2022-10-29 19:51:36,200 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h_save
+2022-10-29 19:51:36,273 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_it.h
+2022-10-29 19:51:36,292 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-29 19:51:36,402 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\stm32f1xx_hal_msp.c
+2022-10-29 19:51:36,407 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp_save
+2022-10-29 19:51:36,474 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\MXTmpFiles\system.tmp
+2022-10-29 19:51:36,492 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-29 19:51:36,585 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-29 19:51:36,611 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h_save
+2022-10-29 19:51:36,720 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Inc\main.h
+2022-10-29 19:51:36,733 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c_save
+2022-10-29 19:51:36,835 [INFO] CodeEngine:269 - Generated code: C:\Users\matia\Desktop\Parcial TDII\ST7789\Core\Src\main.c
+2022-10-29 19:51:37,739 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 355mS.
+2022-10-29 19:51:37,743 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2022-10-29 19:51:37,970 [INFO] ConfigFileManager:1394 - The Die is : DIE410
+2022-10-29 19:51:39,128 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 1385mS.
+2022-10-29 19:51:39,129 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 1mS.
+2022-10-29 19:51:39,133 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2022-10-29 20:05:20,312 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-10-29 21:59:11,933 [INFO] Activator:177 - 
+
+
+2022-10-29 21:59:11,934 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-29 21:59:38,078 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-10-29 21:59:38,079 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-10-29 21:59:38,080 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2022-10-29 23:52:26,077 [INFO] Activator:177 - 
+
+
+2022-10-29 23:52:26,079 [INFO] Activator:178 - !SESSION log4j initialized
